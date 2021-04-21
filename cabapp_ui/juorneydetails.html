@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juorneydetails</title>
+</head>
+
+<body>
+    <center>
+        <form action="SeniourCheck.html" method="get">
+            <h1>Journey Details</h1>
+            <label>Journey details</label></br>
+            <input type="date" name="journeyDate" id="date" min="2021-04-19" max="2021-05-30" /></br>
+            </br>
+            <label>Journey Time</label></br>
+
+            <input type="time" name="journeyTime" id="time" min="09:00:00" max: "06:00:00"></br>
+            <button id="check">Check</button>
+            <p>The peak hour Charge is <span id="charge"></span></p>
+            <h3><label for="gender">Gender</label></h3>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label></br>
+            <button>Submit</button>
+        </form>
+    </center>
+</body>
+<script type="text/javascript" src='juorneydetails.js'></script>
+
+</html>

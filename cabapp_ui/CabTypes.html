@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cab Selection</title>
+</head>
+
+<body>
+    <center>
+        <form action="juorneydetails.html" method="GET">
+            <h1>Choose Cab Type</h1>
+            <label for="cars">Select the car of your choice</label>
+            <select id="services" name="car">
+            <option value="mini">Mini</option>
+            <option value="macro">Macro</option>
+            <option value="prime">Prime</option>
+            </select></br>
+            </br>
+            <label for="Distance">Enter the distance in Km</label></br>
+
+            <input type="number" name="km" id="km"><br/></br>
+            <label for="Gst">Gst is 7%</label></br>
+            <button id="calculateBtn">Calculate</button></br>
+            <p> Price for Entered Km is <span id="Price"></span> </p>
+            </br>
+            <button>Next Page</button>
+        </form>
+    </center>
+    <script type="text/javascript" src='cabtypesprice.js'></script>
+</body>
+
+</html>
