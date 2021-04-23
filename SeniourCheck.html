@@ -8,18 +8,22 @@
     <title>Document</title>
 </head>
 
+<body style="background-color:yellow;"></body>
+
 <body>
     <center>
         <form action="Summary.html" method="get">
             <h1>Senior Citizen Check</h1>
             <label>Senior Citizen Check </label></br>
-            <input type="date" name="Birthday" min="2021-04-19" max="1940-05-30" /></br>
-            <label for="Bill"> Price  for Senior Citizen Discount</label></br>
-            <input type="text" name="Bill" id="Bill"><br/>
+            <input type="date" name="Birthday" id="Birth" min="1940-04-00" max="2021-05-30" /></br>
+            <button id="verify">Check</button>
+            <p> Price for Senior Citizen Discount is<span id="disc"></span> </p>
+            </br>
             </br>
             <button>Book Cab</button>
     </center>
     </form>
 </body>
+<script type="text/javascript" src='seniour.js'></script>
 
 </html>

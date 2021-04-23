@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cab Selection</title>
+
+    <body style="background-color:yellow;"></body>
+
 </head>
+
 
 <body>
     <center>
-        <form method="GET">
+        <form action="juorneydetails.html" method="GET">
             <h1>Choose Cab Type</h1>
             <label for="cars">Select the car of your choice</label>
             <select id="services" name="car">
@@ -20,10 +24,12 @@
             </select></br>
             </br>
             <label for="Distance">Enter the distance in Km</label></br>
-            <input type="number" name="km" id="km"><br/></br>
+
+            <input type="number" name="km" id="km" required><br/></br>
+            <label for="Gst">Gst is 7%</label></br>
             <button id="calculateBtn">Calculate</button></br>
-            <label for="Billvalue"> Price for Entered Km</label></br>
-            <input type="text" name="Billvalue" id="Billvalue"><br/>
+            <p> Price for Entered Km is <span id="Price"></span> </p>
+            </br>
             <button>Next Page</button>
         </form>
     </center>
